@@ -1,7 +1,7 @@
 import ipaddress
 subnet = ipaddress.IPv4Network('192.168.100.0/27');
 for ipv4 in subnet.hosts():
-    iprint(ipv4)
+    print(ipv4)
 
 a = 100
 b = 200
